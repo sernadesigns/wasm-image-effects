@@ -16,5 +16,8 @@ module.exports = {
       crateDirectory: path.resolve(__dirname, '.'),
       pluginLogLevel: 'error'
     })
-  ]
+  ],
+  experiments: {
+    asyncWebAssembly: true
+  }
 }
